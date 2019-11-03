@@ -140,7 +140,7 @@ Weather Protection - Services relating to the protection of human habitation fro
 Economic and Energy - Services which directly contribute to economic value, such as raw materials or energy generation.
 Other - Services which fall outside these other subsets.
 
-```{r Most Valuable Biomes}
+```{r Most_Valuable_Biomes_Plotting}
 ## Which services are the most beneficial?
 # Group by the Biome
 byEco <- group_by(df_anPerHa,Biome)
@@ -203,7 +203,7 @@ We can see from the plot that grasslands are by far the most valuable biomes, by
 
 Another side to this story is determining which services human society are provided globally by ecosystems.  So let's see which services are the most valuable.
 
-```{r Service plotting}
+```{r Service_plotting}
 ## Which are the most valuable ecosystem services provided globally?
 df_anPerHa$Service=mapply(ESgeneralise,df_anPerHa$ESService)
 # Group by the ecosystem service

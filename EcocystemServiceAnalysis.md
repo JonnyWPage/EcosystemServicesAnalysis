@@ -228,7 +228,7 @@ ggplot(byEcoTop, aes(fill=Service, y=USDPerHa, x=Biome)) +
        title = "Most Valuable Biomes by Ecosystem Service")
 ```
 
-![](EcocystemServiceAnalysis_files/figure-html/Most Valuable Biomes-1.png)<!-- -->
+![](EcocystemServiceAnalysis_files/figure-html/Most_Valuable_Biomes_Plotting-1.png)<!-- -->
 
 We can see from the plot that grasslands are by far the most valuable biomes, by providing economic and energy services of nearly 8 million USD per hectare per year, globally.  After this, we have costal areas, which contribute their monetary value mainly through services relating to human happiness.
 
@@ -251,7 +251,7 @@ ggplot(byService, aes(fill=Biome, y=USDPerHa, x=Service)) +
        title = "Most Valuable Services by Biome")
 ```
 
-![](EcocystemServiceAnalysis_files/figure-html/Service plotting-1.png)<!-- -->
+![](EcocystemServiceAnalysis_files/figure-html/Service_plotting-1.png)<!-- -->
 
 The barplot above shows that services directly providing an economic or energy value are the most valuable, with human happiness services coming in as the second most valuable.
 
